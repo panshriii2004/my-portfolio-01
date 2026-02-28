@@ -85,7 +85,7 @@ export default function Portfolio() {
             className="mb-8"
           >
             <Avatar className="w-32 h-32 mx-auto mb-6">
-              <AvatarImage src="/professional-headshot.png" />
+              <AvatarImage src="professional-headshot.png" />
               <AvatarFallback>PS</AvatarFallback>
             </Avatar>
           </motion.div>
