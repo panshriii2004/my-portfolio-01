@@ -317,7 +317,7 @@ export default function Portfolio() {
             <p className="text-xl text-slate-600 mb-8">
               Download my resume to learn more about my experience and qualifications.
             </p>
-            <a href="/RESUME.pdf" download>
+            const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''; <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/RESUME.pdf`} download>
   <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
     <Download className="w-5 h-5 mr-2" />
     Download Resume (PDF)
