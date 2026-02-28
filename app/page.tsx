@@ -232,7 +232,7 @@ export default function Portfolio() {
               {
                 title: 'PORTFOLIO-MAKER',
                 description: 'Full-stack e-commerce solution with React, Node.js, and Stripe integration.',
-                image: '/ecommerce-website-homepage.png',
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/ecommerce-website-homepage.png`,
                  imageLink: 'https://panshriii2004.github.io/portfolio_maker/',
                 tech: ['React', 'Node.js', 'MongoDB', 'Stripe' , 'Tailwind'],
                 github: '#',
@@ -241,7 +241,7 @@ export default function Portfolio() {
               {
                 title: 'TASK TEAM PRAYASH',
                 description: 'Collaborative task management tool with real-time updates and team features.',
-                image: '/task-management-dashboard.png',
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/task-management-dashboard.png`,
                 imageLink:'https://panshriii2004.github.io/PORTFOLIO/',
                 tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
                 github: '#',
@@ -250,7 +250,7 @@ export default function Portfolio() {
               {
                 title: 'Weather Dashboard',
                 description: 'Beautiful weather app with location-based forecasts and interactive maps.',
-                image: '/weather-dashboard.png',
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/weather-dashboard.png`,
                 imageLink:'#',
                 tech: ['React', 'API Integration', 'Chart.js', 'Tailwind'],
                 github: '#',
@@ -356,21 +356,21 @@ export default function Portfolio() {
                 role: 'Product Manager',
                 company: 'TechCorp',
                 content: 'Panshri delivered exceptional work on our e-commerce platform. Her attention to detail and technical expertise made the project a huge success.',
-                avatar: '/professional-woman-diverse.png'
+              avatar: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/professional-woman-diverse.png`
               },
               {
                 name: 'Mike Chen',
                 role: 'CTO',
                 company: 'StartupXYZ',
                 content: 'Working with Panshri was a game-changer for our team. She brought fresh ideas and implemented them flawlessly.',
-                avatar: '/professional-man.png'
+                avatar: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/professional-man.png`
               },
               {
                 name: 'Emily Davis',
                 role: 'Design Lead',
                 company: 'Creative Agency',
                 content: 'Panshri has an incredible ability to translate designs into pixel-perfect, responsive web applications. Highly recommended!',
-                avatar: '/professional-woman-designer.png'
+                avatar: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/professional-woman-designer.png`
               }
             ].map((testimonial, index) => (
               <motion.div key={index} variants={fadeInUp}>
