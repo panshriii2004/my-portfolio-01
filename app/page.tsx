@@ -236,7 +236,7 @@ export default function Portfolio() {
                  imageLink: 'https://panshriii2004.github.io/portfolio_maker/',
                 tech: ['React', 'Node.js', 'MongoDB', 'Stripe' , 'Tailwind'],
                 github: '#',
-                live: '#'
+                live: 'https://panshriii2004.github.io/portfolio_maker/'
               },
               {
                 title: 'TASK TEAM PRAYASH',
@@ -245,7 +245,7 @@ export default function Portfolio() {
                 imageLink:'https://panshriii2004.github.io/PORTFOLIO/',
                 tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Socket.io'],
                 github: '#',
-                live: '#'
+                live:'https://panshriii2004.github.io/PORTFOLIO/'
               },
               {
                 title: 'Weather Dashboard',
