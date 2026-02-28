@@ -424,21 +424,21 @@ export default function Portfolio() {
                 excerpt: 'Learn best practices for structuring large React applications with proper state management and component architecture.',
                 date: 'Dec 15, 2024',
                 readTime: '5 min read',
-                image: '/react-code-snippet.png'
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/react-code-snippet.png`
               },
               {
                 title: 'The Future of Web Development',
                 excerpt: 'Exploring emerging trends and technologies that will shape the future of web development in 2025 and beyond.',
                 date: 'Dec 10, 2024',
                 readTime: '7 min read',
-                image: '/futuristic-web-design.png'
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/futuristic-web-design.png`
               },
               {
                 title: 'Optimizing Performance in Next.js',
                 excerpt: 'Practical tips and techniques for improving the performance of your Next.js applications.',
                 date: 'Dec 5, 2024',
                 readTime: '6 min read',
-                image: '/nextjs-performance.png'
+                image: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/nextjs-performance.png`
               }
             ].map((post, index) => (
               <motion.div key={index} variants={fadeInUp}>
